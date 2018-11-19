@@ -187,8 +187,12 @@ footer .footer_discl {
 .featured_number {
     font-size: 270px;
     color: #ffffff;
-    transform: translate(260px,170px);
+    transform: translate(260px,120px);
     position: absolute;
+    -webkit-transform: translate(260px,120px);
+    -moz-transform: translate(260px,120px);
+    -ms-transform: translate(260px,120px);
+    -o-transform: translate(260px,120px);
 }
 
 .featured_player {
